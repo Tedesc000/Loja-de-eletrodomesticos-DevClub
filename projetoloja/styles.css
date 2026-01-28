@@ -439,7 +439,7 @@ header nav ul li:hover::after{
 }
 
 .nome-prog{
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #00f7ff;
     text-shadow: 0 0 10px black;
     font-weight: 900;
@@ -448,22 +448,22 @@ header nav ul li:hover::after{
 }
 
 .alinhar{
-    width: 80%;
+    width: 90%;
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .cursando-prog{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
 .escola-prog{
     margin-bottom: 15px;
-    max-width: 700px;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 300;
 }
 
@@ -473,4 +473,8 @@ header nav ul li:hover::after{
 
 .email-prog:hover{
     color: lightcoral;
+}
+
+.zap-prog, .email-prog{
+    font-size: 1.3rem;
 }
